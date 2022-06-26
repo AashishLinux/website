@@ -26,7 +26,7 @@ pipeline {
                 stage ('Curling Site Data ') {
                         steps {
                                 echo "Curling Site Data"
-                                sh 'curl 172.105.47.83 '
+                                sh 'curl https://cicd.geekyaashish.tk'
                                 echo "Curling Done"
                                 }
                 }
