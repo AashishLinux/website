@@ -19,7 +19,7 @@ pipeline {
                 stage ('Checking If Host Is Alive') {
                         steps {
                                 echo "Checking If Host Is Alive"
-                                sh 'ssh root@172.105.47.83         sudo  ping -c2 172.105.47.83'
+                                sh 'ssh root@194.195.119.17    sudo  ping -c2 172.105.47.83'
                                 echo "Ping Done And Host Is Reachable"
                                 }
                 }
